@@ -5,7 +5,7 @@ import './../styles/App.css';
 const App = () => {
   const[count,setcount]=useState(0)
   function buttonClicked(){
-    setcount(count++)
+    setcount(count+1)
   }
   return (
     <div>
