@@ -1,13 +1,13 @@
 
 import React, { useState } from "react";
 import './../styles/App.css';
-import Button from "./Button";
+import Counter from "./Counter";
 
 const App = () => {
 
   return (
     <div>
-       <Button/>
+       <Counter/>
     </div>
   )
 }

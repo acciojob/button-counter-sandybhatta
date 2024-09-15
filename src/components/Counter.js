@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Button = () => {
+const Counter = () => {
     const[count,setcount]=useState(0)
     function buttonClicked(){
       setcount(count+1)
@@ -13,4 +13,4 @@ const Button = () => {
   )
 }
 
-export default Button
+export default Counter
