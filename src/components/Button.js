@@ -8,7 +8,7 @@ const Button = () => {
   return (
     <div>
     <p>Button clicked {count} times</p>
-    <button onclick={buttonClicked}>Click me</button>
+    <button onClick={buttonClicked}>Click me</button>
 </div>
   )
 }
